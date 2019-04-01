@@ -20,6 +20,15 @@ namespace rsoni.SolidPrinciples.OCP.CorrectImpl
             return Height * Width;
         }
     }
+
+    public class Square : Shape
+    {
+        public double SideLength { get; set; }
+        public override double Area()
+        {
+            return SideLength * SideLength;
+        }
+    }
     public class Circle : Shape
     {
         public double Radius { get; set; }
