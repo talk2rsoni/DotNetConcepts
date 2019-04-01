@@ -48,7 +48,10 @@
     <Content Include="Readme.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="AbstractFactory\" />
+    <Folder Include="Behavioral\Strategy\" />
+    <Folder Include="Creational\AbstractFactory\" />
+    <Folder Include="Creational\Builder\" />
+    <Folder Include="Structural\Facade\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
