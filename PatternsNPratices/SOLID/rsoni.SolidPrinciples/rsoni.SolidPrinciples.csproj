@@ -41,8 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="1.SRP\CorrectImpl.cs" />
+    <Compile Include="1.SRP\WrongImpl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="1.SRP\Readme.txt" />
+    <Content Include="2.OCP\Readme.txt" />
+    <Content Include="3.LSP\Readme.txt" />
+    <Content Include="4.ISP\Readme.txt" />
+    <Content Include="5.DIP\Readme.txt" />
+    <Content Include="BasicConcepts.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
