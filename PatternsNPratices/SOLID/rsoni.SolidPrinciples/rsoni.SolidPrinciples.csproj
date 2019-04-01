@@ -49,7 +49,6 @@
     <Compile Include="4.ISP\ISP.CorrectImpl.cs" />
     <Compile Include="4.ISP\ISP.WrongImpl.cs" />
     <Compile Include="5.DIP\DIP.CorrectImpl.cs" />
-    <Compile Include="5.DIP\DIP.WrongImpl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
