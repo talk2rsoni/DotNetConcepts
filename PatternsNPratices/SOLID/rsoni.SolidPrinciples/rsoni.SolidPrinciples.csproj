@@ -41,8 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1.SRP\CorrectImpl.cs" />
-    <Compile Include="1.SRP\WrongImpl.cs" />
+    <Compile Include="1.SRP\SRP.CorrectImpl.cs" />
+    <Compile Include="1.SRP\SRP.WrongImpl.cs" />
+    <Compile Include="2.OCP\OCP.CorrectImpl.cs" />
+    <Compile Include="2.OCP\OCP.WrongImpl.cs" />
+    <Compile Include="3.LSP\LSP.CorrectImpl.cs" />
+    <Compile Include="3.LSP\LSP.WrongImpl.cs" />
+    <Compile Include="4.ISP\ISP.CorrectImpl.cs" />
+    <Compile Include="4.ISP\ISP.WrongImpl.cs" />
+    <Compile Include="5.DIP\DIP.CorrectImpl.cs" />
+    <Compile Include="5.DIP\DIP.WrongImpl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
