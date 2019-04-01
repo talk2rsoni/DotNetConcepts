@@ -1,6 +1,7 @@
 ﻿using rsoni.UtilsLibrary;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,7 @@ namespace GCDemo
                 Utility.LogEntry("GC Maximum Generations:" + GC.MaxGeneration);
                 CheckBaseGC();
                 CheckGCGenerations();
+                AdditionalGC();
                 Console.ForegroundColor = ConsoleColor.White;
                 Utility.LogEntry("Total Completion Duration in (ms):  " + (DateTime.Now - start).TotalMilliseconds);
                 Utility.LogEntry2(string.Format("Successfully Completed."));
@@ -66,7 +68,12 @@ namespace GCDemo
 
         public static void AdditionalGC()
         {
-            //
+            StreamWriter stream = File.CreateText("temp.dat");
+            stream.Write("some test data");
+            stream.Close();
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
+            File.Delete("temp.dat");
         }
 
 
