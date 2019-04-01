@@ -1,4 +1,5 @@
-﻿using System;
+﻿using rsoni.UtilsLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -46,7 +47,7 @@ namespace rsoni.Patterns.Behavioral
     {
         public override void AlgorithmInterface()
         {
-            Console.WriteLine(
+            Utility.LogEntry(
               "Called ConcreteStrategyA.AlgorithmInterface()");
         }
     }
@@ -62,7 +63,7 @@ namespace rsoni.Patterns.Behavioral
     {
         public override void AlgorithmInterface()
         {
-            Console.WriteLine(
+            Utility.LogEntry(
               "Called ConcreteStrategyB.AlgorithmInterface()");
         }
     }
@@ -78,7 +79,7 @@ namespace rsoni.Patterns.Behavioral
     {
         public override void AlgorithmInterface()
         {
-            Console.WriteLine(
+            Utility.LogEntry(
               "Called ConcreteStrategyC.AlgorithmInterface()");
         }
     }
