@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rsoni.SolidPrinciples.Test"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rsoni.SolidPrinciples", "SOLID\rsoni.SolidPrinciples\rsoni.SolidPrinciples.csproj", "{6DF05F28-A996-4074-B04D-3014C7F9BE88}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{A72EA07D-6337-49CE-B13E-07871F489AE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rsoni.Patterns", "rsoni.Patterns\rsoni.Patterns\rsoni.Patterns.csproj", "{DC27CBF9-A11A-4729-8690-8524D8E0C200}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{6DF05F28-A996-4074-B04D-3014C7F9BE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DF05F28-A996-4074-B04D-3014C7F9BE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DF05F28-A996-4074-B04D-3014C7F9BE88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC27CBF9-A11A-4729-8690-8524D8E0C200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC27CBF9-A11A-4729-8690-8524D8E0C200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC27CBF9-A11A-4729-8690-8524D8E0C200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC27CBF9-A11A-4729-8690-8524D8E0C200}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{47E6B93F-FD12-4F5E-9997-FAC7B2E4EDBA} = {A23389B8-3114-476B-81AF-D4569CADD86F}
 		{6DF05F28-A996-4074-B04D-3014C7F9BE88} = {A23389B8-3114-476B-81AF-D4569CADD86F}
+		{DC27CBF9-A11A-4729-8690-8524D8E0C200} = {A72EA07D-6337-49CE-B13E-07871F489AE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA34280D-45AC-4F65-A274-5EEF192DABA7}
