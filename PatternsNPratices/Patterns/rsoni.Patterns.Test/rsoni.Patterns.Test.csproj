@@ -51,6 +51,8 @@
   <ItemGroup>
     <Compile Include="CreationalPatternsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BehavioralPatternsTest.cs" />
+    <Compile Include="StructuralPatternsTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

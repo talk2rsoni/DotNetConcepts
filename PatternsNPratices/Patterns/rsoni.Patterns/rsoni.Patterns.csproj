@@ -41,17 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Creational\Singleton\Singleton.cs" />
+    <Compile Include="Behavioral\Strategy.cs" />
+    <Compile Include="Creational\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Readme.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Behavioral\Strategy\" />
-    <Folder Include="Creational\AbstractFactory\" />
-    <Folder Include="Creational\Builder\" />
-    <Folder Include="Structural\Facade\" />
+    <Folder Include="Structural\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
