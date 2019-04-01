@@ -2,6 +2,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using rsoni.Patterns.Creational;
 using rsoni.Patterns.Creational.AF;
+using rsoni.Patterns.Creational.Factory;
+using rsoni.UtilsLibrary;
 
 namespace rsoni.Patterns.Test
 {
@@ -30,6 +32,26 @@ namespace rsoni.Patterns.Test
             AbstractFactory factory2 = new ConcreteFactory2();
             Client client2 = new Client(factory2);
             client2.Run();
+
+        }
+
+        [TestMethod]
+        public void FactoryTest()
+        {
+            // An array of creators
+
+            Creator[] creators = new Creator[2];
+
+            creators[0] = new ConcreteCreatorA();
+            creators[1] = new ConcreteCreatorB();
+
+            // Iterate over creators and create products
+
+            foreach (Creator creator in creators)
+            {
+                Product product = creator.FactoryMethod();
+                Utility.LogEntry(string.Format("Created {0}", product.GetType().Name));
+            }
 
         }
     }

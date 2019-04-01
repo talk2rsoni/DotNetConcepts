@@ -13,7 +13,6 @@ namespace rsoni.Patterns.Behavioral
         private Strategy _strategy;
 
         // Constructor
-
         public Context(Strategy strategy)
         {
             this._strategy = strategy;
@@ -24,10 +23,10 @@ namespace rsoni.Patterns.Behavioral
             _strategy.AlgorithmInterface();
         }
     }
+
+
     /// <summary>
-
     /// The 'Strategy' abstract class
-
     /// </summary>
 
     public abstract class Strategy
