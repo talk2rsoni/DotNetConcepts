@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using rsoni.Patterns.Structural;
 
 namespace rsoni.Patterns.Test
 {
@@ -7,8 +8,12 @@ namespace rsoni.Patterns.Test
     public class StructuralPatternsTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ProxyTest()
         {
+            // Create proxy and request a service
+
+            Proxy proxy = new Proxy();
+            proxy.Request();
         }
     }
 }
