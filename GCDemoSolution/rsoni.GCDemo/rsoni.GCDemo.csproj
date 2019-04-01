@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A051EDFD-38C4-414E-B170-4D28E6D1D5F2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GCDemo</RootNamespace>
-    <AssemblyName>GCDemo</AssemblyName>
+    <RootNamespace>rsoni.GCDemo</RootNamespace>
+    <AssemblyName>rsoni.GCDemo</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
