@@ -3,6 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using rsoni.Patterns.Creational;
 using rsoni.Patterns.Creational.AF;
 using rsoni.Patterns.Creational.Factory;
+using rsoni.Patterns.Creational.V2;
 using rsoni.UtilsLibrary;
 
 namespace rsoni.Patterns.Test
@@ -54,5 +55,22 @@ namespace rsoni.Patterns.Test
             }
 
         }
+
+
+
+        [TestMethod]
+        public void TestFactoryV2()
+        {
+            BadDuration durations = BadDuration.FromMilliSeonds(1);
+            Assert.AreEqual(10000, durations.Ticks);
+        }
+
+
+        [TestMethod]
+        public void BuilderTest()
+        {
+            //
+        }
+
     }
 }

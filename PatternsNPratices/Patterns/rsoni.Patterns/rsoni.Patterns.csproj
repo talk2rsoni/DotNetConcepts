@@ -46,6 +46,8 @@
   <ItemGroup>
     <Compile Include="Behavioral\Strategy.cs" />
     <Compile Include="Creational\AbstractFactory.cs" />
+    <Compile Include="Creational\Builder.cs" />
+    <Compile Include="Creational\Factory1.cs" />
     <Compile Include="Creational\Factory.cs" />
     <Compile Include="Creational\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
